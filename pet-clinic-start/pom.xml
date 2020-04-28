@@ -29,20 +29,20 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<goals>install</goals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
-	<scm>
+	<!-- <scm>
 	<developerConnection>scm:git:@github.com/vipinparambil/spring-pectclinic.git</developerConnection>
 	  <tag>pet-clinic-start-0.0.1</tag>
-  </scm>
+  </scm> -->
 
 	<modules>
 		<module>pet-clinic-data</module>
