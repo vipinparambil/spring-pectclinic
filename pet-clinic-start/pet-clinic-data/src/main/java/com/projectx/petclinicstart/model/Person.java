@@ -3,7 +3,7 @@ package com.projectx.petclinicstart.model;
 public class Person extends BaseEntity {
 
     private String firstName;
-    private String lasteName;
+    private String lastName;
 
     public String getFirstName() {
         return this.firstName;
@@ -11,11 +11,11 @@ public class Person extends BaseEntity {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-    public String getLasteName() {
-        return this.lasteName;
+    public String getLastName() {
+        return this.lastName;
     }
-    public void setLasteName(String lasteName) {
-        this.lasteName = lasteName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
 
