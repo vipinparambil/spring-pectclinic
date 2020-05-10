@@ -10,11 +10,11 @@ public class Pet extends BaseEntity {
     @Column(name = "name")
     private String name;
 
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn(name = "pet_type")
     private PetType petType;
 
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn(name = "owner_id")
     private Owner owner;
 
